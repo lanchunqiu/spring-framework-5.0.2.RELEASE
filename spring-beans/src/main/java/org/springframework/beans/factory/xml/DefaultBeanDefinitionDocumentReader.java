@@ -55,6 +55,7 @@ import java.util.Set;
  * @author Erik Wiersma
  * @since 18.12.2003
  */
+//接口BeanDefinitionDocumentReader定义功能的实现
 public class DefaultBeanDefinitionDocumentReader implements BeanDefinitionDocumentReader {
 
 	public static final String BEAN_ELEMENT = BeanDefinitionParserDelegate.BEAN_ELEMENT;
