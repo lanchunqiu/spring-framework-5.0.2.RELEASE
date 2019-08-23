@@ -35,6 +35,7 @@ import org.springframework.util.StringValueResolver;
  * @author Juergen Hoeller
  * @since 2.5.2
  */
+//接口AliasRegistry的实现类，主要使用map作为alias的缓存
 public class SimpleAliasRegistry implements AliasRegistry {
 
 	/** Map from alias to canonical name */
